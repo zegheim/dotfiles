@@ -1,0 +1,51 @@
+# Convert video to audio-only files
+-x
+
+# Specify ffmpeg/avconv audio quality, insert a value between 
+# 0 (better) and 9 (worse) for VBR or a specific bitrate like 128K
+--audio-quality 0
+
+# Specify audio format: "best", "aac", "flac", "mp3", "m4a", "opus", "vorbis", or "wav"
+--audio-format "mp3"
+
+# Download the playlist, if the URL refers to a video and a playlist.
+--yes-playlist
+
+# Embed thumbnail in the audio as cover art
+--embed-thumbnail
+
+# Display progress in console titlebar
+--console-title
+
+# Print various debugging information
+#--verbose
+
+# Select the best quality audio-only format
+# --format "bestaudio"
+
+# Save downloaded audio to Google Drive
+--output "$GOOGLEDRIVE/Music/%(playlist_title)s/[%(id)s] %(title)s.%(ext)s"
+
+# Continue on download errors, for example to skip unavailable videos in a playlist
+--ignore-errors
+
+# Bypass geographic restriction via faking X-Forwarded-For HTTP header
+# --geo-bypass
+
+# Write metadata to the video file
+--add-metadata
+
+# Do not download the DASH manifests and related data on YouTube videos
+# --youtube-skip-dash-manifest
+
+# Number of retries for a fragment
+--fragment-retries "infinite"
+
+# Number of retries 
+--retries "infinite"
+
+# Do not use .part files - write directly into output file
+--no-part
+
+# Do not resume partially downloaded files (restart from beginning)
+--no-continue
