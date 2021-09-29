@@ -1,0 +1,12 @@
+[org/gnome/desktop/a11y]
+always-show-universal-access-status=false
+
+[org/gnome/desktop/interface]
+clock-format='24h'
+clock-show-seconds=true
+cursor-theme='Win 10'
+gtk-theme='FlatColor'
+icon-theme='Windows-10-master'
+
+[org/gnome/login-screen]
+logo='/home/zegheim/Pictures/animal-crossing/AnimalCrossingSymbol.png'
