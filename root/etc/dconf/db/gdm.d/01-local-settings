@@ -4,9 +4,15 @@ always-show-universal-access-status=false
 [org/gnome/desktop/interface]
 clock-format='24h'
 clock-show-seconds=true
+clock-show-date=true
 cursor-theme='Win 10'
 gtk-theme='FlatColor'
 icon-theme='Windows-10-master'
 
+[org/gnome/desktop/sound]
+theme-name='Windows_10_sounds'
+
+
 [org/gnome/login-screen]
-logo='/home/zegheim/Pictures/animal-crossing/Timmy_and_Tommy_NH_Line_Artwork.png'
+logo='/home/zegheim/Pictures/persona/p5r_logo_resized.png'
+
