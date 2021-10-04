@@ -6,7 +6,6 @@ clock-format='24h'
 clock-show-seconds=true
 clock-show-date=true
 cursor-theme='Win 10'
-gtk-theme='FlatColor'
 icon-theme='Windows-10-master'
 
 [org/gnome/desktop/sound]
