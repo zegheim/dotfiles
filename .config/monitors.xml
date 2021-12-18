@@ -1,16 +1,34 @@
 <monitors version="2">
   <configuration>
     <logicalmonitor>
-      <x>0</x>
-      <y>120</y>
+      <x>3840</x>
+      <y>355</y>
+      <scale>1</scale>
+      <monitor>
+        <monitorspec>
+          <connector>eDP-1</connector>
+          <vendor>SHP</vendor>
+          <product>0x14cb</product>
+          <serial>0x00000000</serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1200</height>
+          <rate>59.950172424316406</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>1920</x>
+      <y>0</y>
       <scale>1</scale>
       <primary>yes</primary>
       <monitor>
         <monitorspec>
-          <connector>DP-3</connector>
-          <vendor>VES</vendor>
-          <product>32FHD_LCD_TV</product>
-          <serial>0x00000000</serial>
+          <connector>DP-1-1</connector>
+          <vendor>SAM</vendor>
+          <product>S24F350</product>
+          <serial>H4ZJC05509</serial>
         </monitorspec>
         <mode>
           <width>1920</width>
@@ -19,6 +37,26 @@
         </mode>
       </monitor>
     </logicalmonitor>
+    <logicalmonitor>
+      <x>0</x>
+      <y>375</y>
+      <scale>1</scale>
+      <monitor>
+        <monitorspec>
+          <connector>DP-1-2</connector>
+          <vendor>SAM</vendor>
+          <product>S24F350</product>
+          <serial>H4ZJ502091</serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+  </configuration>
+  <configuration>
     <logicalmonitor>
       <x>1920</x>
       <y>0</y>
@@ -34,6 +72,25 @@
           <width>1920</width>
           <height>1200</height>
           <rate>59.950172424316406</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>DP-1-2</connector>
+          <vendor>DEL</vendor>
+          <product>DELL ST2220L</product>
+          <serial>P9H7F26P0GWL</serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
         </mode>
       </monitor>
     </logicalmonitor>
@@ -116,12 +173,12 @@
     </logicalmonitor>
     <logicalmonitor>
       <x>0</x>
-      <y>0</y>
+      <y>120</y>
       <scale>1</scale>
       <primary>yes</primary>
       <monitor>
         <monitorspec>
-          <connector>DP-1-2</connector>
+          <connector>DP-1-1</connector>
           <vendor>DEL</vendor>
           <product>DELL ST2220L</product>
           <serial>P9H7F26P0GWL</serial>
@@ -136,12 +193,34 @@
   </configuration>
   <configuration>
     <logicalmonitor>
-      <x>1920</x>
+      <x>0</x>
       <y>0</y>
+      <scale>1</scale>
+      <transform>
+        <rotation>right</rotation>
+        <flipped>no</flipped>
+      </transform>
+      <monitor>
+        <monitorspec>
+          <connector>DP2-2</connector>
+          <vendor>DEL</vendor>
+          <product>DELL U2719D</product>
+          <serial>FY52X13</serial>
+        </monitorspec>
+        <mode>
+          <width>2560</width>
+          <height>1440</height>
+          <rate>59.950550079345703</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>3360</x>
+      <y>302</y>
       <scale>1</scale>
       <monitor>
         <monitorspec>
-          <connector>eDP-1</connector>
+          <connector>eDP1</connector>
           <vendor>SHP</vendor>
           <product>0x14cb</product>
           <serial>0x00000000</serial>
@@ -154,16 +233,16 @@
       </monitor>
     </logicalmonitor>
     <logicalmonitor>
-      <x>0</x>
-      <y>120</y>
+      <x>1440</x>
+      <y>422</y>
       <scale>1</scale>
       <primary>yes</primary>
       <monitor>
         <monitorspec>
-          <connector>DP-1-1</connector>
-          <vendor>DEL</vendor>
-          <product>DELL ST2220L</product>
-          <serial>P9H7F26P0GWL</serial>
+          <connector>DP1-1</connector>
+          <vendor>SAM</vendor>
+          <product>S24F350</product>
+          <serial>H4ZJC05509</serial>
         </monitorspec>
         <mode>
           <width>1920</width>
@@ -232,25 +311,6 @@
   </configuration>
   <configuration>
     <logicalmonitor>
-      <x>1440</x>
-      <y>499</y>
-      <scale>1</scale>
-      <primary>yes</primary>
-      <monitor>
-        <monitorspec>
-          <connector>DP-1-1</connector>
-          <vendor>SAM</vendor>
-          <product>S24F350</product>
-          <serial>H4ZJC05509</serial>
-        </monitorspec>
-        <mode>
-          <width>1920</width>
-          <height>1080</height>
-          <rate>60</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-    <logicalmonitor>
       <x>0</x>
       <y>0</y>
       <scale>1</scale>
@@ -274,7 +334,7 @@
     </logicalmonitor>
     <logicalmonitor>
       <x>3360</x>
-      <y>499</y>
+      <y>635</y>
       <scale>1</scale>
       <monitor>
         <monitorspec>
@@ -287,6 +347,25 @@
           <width>1920</width>
           <height>1200</height>
           <rate>59.950172424316406</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>1440</x>
+      <y>454</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>DP-1-1</connector>
+          <vendor>SAM</vendor>
+          <product>S24F350</product>
+          <serial>H4ZJC05509</serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
         </mode>
       </monitor>
     </logicalmonitor>
@@ -578,6 +657,63 @@
   </configuration>
   <configuration>
     <logicalmonitor>
+      <x>1920</x>
+      <y>0</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>DP-3-2</connector>
+          <vendor>DEL</vendor>
+          <product>DELL U2719D</product>
+          <serial>FY52X13</serial>
+        </monitorspec>
+        <mode>
+          <width>2560</width>
+          <height>1440</height>
+          <rate>59.950550079345703</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>0</x>
+      <y>360</y>
+      <scale>1</scale>
+      <monitor>
+        <monitorspec>
+          <connector>DP-4-2</connector>
+          <vendor>SAM</vendor>
+          <product>S24F350</product>
+          <serial>H4ZJ502091</serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>4480</x>
+      <y>240</y>
+      <scale>1</scale>
+      <monitor>
+        <monitorspec>
+          <connector>eDP-1</connector>
+          <vendor>SHP</vendor>
+          <product>0x14cb</product>
+          <serial>0x00000000</serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1200</height>
+          <rate>59.950172424316406</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+  </configuration>
+  <configuration>
+    <logicalmonitor>
       <x>0</x>
       <y>360</y>
       <scale>1</scale>
@@ -635,28 +771,32 @@
   </configuration>
   <configuration>
     <logicalmonitor>
-      <x>3360</x>
-      <y>664</y>
+      <x>1080</x>
+      <y>278</y>
       <scale>1</scale>
+      <primary>yes</primary>
       <monitor>
         <monitorspec>
-          <connector>eDP-1</connector>
-          <vendor>SHP</vendor>
-          <product>0x14cb</product>
-          <serial>0x00000000</serial>
+          <connector>DP-1-2</connector>
+          <vendor>DEL</vendor>
+          <product>DELL U2719D</product>
+          <serial>FY52X13</serial>
         </monitorspec>
         <mode>
-          <width>1920</width>
-          <height>1200</height>
-          <rate>59.950172424316406</rate>
+          <width>2560</width>
+          <height>1440</height>
+          <rate>59.950550079345703</rate>
         </mode>
       </monitor>
     </logicalmonitor>
     <logicalmonitor>
-      <x>1440</x>
-      <y>472</y>
+      <x>0</x>
+      <y>0</y>
       <scale>1</scale>
-      <primary>yes</primary>
+      <transform>
+        <rotation>right</rotation>
+        <flipped>no</flipped>
+      </transform>
       <monitor>
         <monitorspec>
           <connector>DP-2-1</connector>
@@ -672,50 +812,28 @@
       </monitor>
     </logicalmonitor>
     <logicalmonitor>
-      <x>0</x>
-      <y>0</y>
+      <x>3640</x>
+      <y>518</y>
       <scale>1</scale>
-      <transform>
-        <rotation>right</rotation>
-        <flipped>no</flipped>
-      </transform>
       <monitor>
         <monitorspec>
-          <connector>DP-1-2</connector>
-          <vendor>DEL</vendor>
-          <product>DELL U2719D</product>
-          <serial>FY52X13</serial>
+          <connector>eDP-1</connector>
+          <vendor>SHP</vendor>
+          <product>0x14cb</product>
+          <serial>0x00000000</serial>
         </monitorspec>
         <mode>
-          <width>2560</width>
-          <height>1440</height>
-          <rate>59.950550079345703</rate>
+          <width>1920</width>
+          <height>1200</height>
+          <rate>59.950172424316406</rate>
         </mode>
       </monitor>
     </logicalmonitor>
   </configuration>
   <configuration>
     <logicalmonitor>
-      <x>0</x>
-      <y>583</y>
-      <scale>1</scale>
-      <monitor>
-        <monitorspec>
-          <connector>DP-3-2</connector>
-          <vendor>SAM</vendor>
-          <product>S24F350</product>
-          <serial>H4ZJ502091</serial>
-        </monitorspec>
-        <mode>
-          <width>1920</width>
-          <height>1080</height>
-          <rate>60</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-    <logicalmonitor>
-      <x>5360</x>
-      <y>240</y>
+      <x>1920</x>
+      <y>0</y>
       <scale>1</scale>
       <monitor>
         <monitorspec>
@@ -732,21 +850,21 @@
       </monitor>
     </logicalmonitor>
     <logicalmonitor>
-      <x>1920</x>
+      <x>0</x>
       <y>0</y>
       <scale>1</scale>
       <primary>yes</primary>
       <monitor>
         <monitorspec>
-          <connector>DP-4</connector>
-          <vendor>DEL</vendor>
-          <product>DELL U3419W</product>
-          <serial>GD116T2</serial>
+          <connector>DP-3-1</connector>
+          <vendor>SAM</vendor>
+          <product>S24F350</product>
+          <serial>H4ZJ502091</serial>
         </monitorspec>
         <mode>
-          <width>3440</width>
-          <height>1440</height>
-          <rate>59.972618103027344</rate>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
         </mode>
       </monitor>
     </logicalmonitor>
@@ -804,6 +922,66 @@
           <width>1920</width>
           <height>1080</height>
           <rate>60</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+  </configuration>
+  <configuration>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>eDP-1</connector>
+          <vendor>SHP</vendor>
+          <product>0x14cb</product>
+          <serial>0x00000000</serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1200</height>
+          <rate>59.950172424316406</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+  </configuration>
+  <configuration>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>DP-3-2</connector>
+          <vendor>DEL</vendor>
+          <product>DELL U2719D</product>
+          <serial>FY52X13</serial>
+        </monitorspec>
+        <mode>
+          <width>2560</width>
+          <height>1440</height>
+          <rate>59.950550079345703</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>2560</x>
+      <y>240</y>
+      <scale>1</scale>
+      <monitor>
+        <monitorspec>
+          <connector>eDP-1</connector>
+          <vendor>SHP</vendor>
+          <product>0x14cb</product>
+          <serial>0x00000000</serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1200</height>
+          <rate>59.950172424316406</rate>
         </mode>
       </monitor>
     </logicalmonitor>
@@ -906,43 +1084,6 @@
   </configuration>
   <configuration>
     <logicalmonitor>
-      <x>1920</x>
-      <y>0</y>
-      <scale>1</scale>
-      <primary>yes</primary>
-      <monitor>
-        <monitorspec>
-          <connector>DP-3-2</connector>
-          <vendor>DEL</vendor>
-          <product>DELL U2719D</product>
-          <serial>FY52X13</serial>
-        </monitorspec>
-        <mode>
-          <width>2560</width>
-          <height>1440</height>
-          <rate>59.950550079345703</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-    <logicalmonitor>
-      <x>0</x>
-      <y>360</y>
-      <scale>1</scale>
-      <monitor>
-        <monitorspec>
-          <connector>DP-4-2</connector>
-          <vendor>SAM</vendor>
-          <product>S24F350</product>
-          <serial>H4ZJ502091</serial>
-        </monitorspec>
-        <mode>
-          <width>1920</width>
-          <height>1080</height>
-          <rate>60</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-    <logicalmonitor>
       <x>4480</x>
       <y>240</y>
       <scale>1</scale>
@@ -957,6 +1098,43 @@
           <width>1920</width>
           <height>1200</height>
           <rate>59.950172424316406</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>0</x>
+      <y>585</y>
+      <scale>1</scale>
+      <monitor>
+        <monitorspec>
+          <connector>DP-1-1</connector>
+          <vendor>SAM</vendor>
+          <product>S24F350</product>
+          <serial>H4ZJ502091</serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>1920</x>
+      <y>0</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>DP-1-2</connector>
+          <vendor>DEL</vendor>
+          <product>DELL U2719D</product>
+          <serial>FY52X13</serial>
+        </monitorspec>
+        <mode>
+          <width>2560</width>
+          <height>1440</height>
+          <rate>59.950550079345703</rate>
         </mode>
       </monitor>
     </logicalmonitor>
@@ -1020,161 +1198,25 @@
   </configuration>
   <configuration>
     <logicalmonitor>
-      <x>4480</x>
-      <y>240</y>
-      <scale>1</scale>
-      <monitor>
-        <monitorspec>
-          <connector>eDP-1</connector>
-          <vendor>SHP</vendor>
-          <product>0x14cb</product>
-          <serial>0x00000000</serial>
-        </monitorspec>
-        <mode>
-          <width>1920</width>
-          <height>1200</height>
-          <rate>59.950172424316406</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-    <logicalmonitor>
       <x>0</x>
-      <y>585</y>
+      <y>583</y>
       <scale>1</scale>
-      <monitor>
-        <monitorspec>
-          <connector>DP-1-1</connector>
-          <vendor>SAM</vendor>
-          <product>S24F350</product>
-          <serial>H4ZJ502091</serial>
-        </monitorspec>
-        <mode>
-          <width>1920</width>
-          <height>1080</height>
-          <rate>60</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-    <logicalmonitor>
-      <x>1920</x>
-      <y>0</y>
-      <scale>1</scale>
-      <primary>yes</primary>
-      <monitor>
-        <monitorspec>
-          <connector>DP-1-2</connector>
-          <vendor>DEL</vendor>
-          <product>DELL U2719D</product>
-          <serial>FY52X13</serial>
-        </monitorspec>
-        <mode>
-          <width>2560</width>
-          <height>1440</height>
-          <rate>59.950550079345703</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-  </configuration>
-  <configuration>
-    <logicalmonitor>
-      <x>1920</x>
-      <y>0</y>
-      <scale>1</scale>
-      <monitor>
-        <monitorspec>
-          <connector>eDP-1</connector>
-          <vendor>SHP</vendor>
-          <product>0x14cb</product>
-          <serial>0x00000000</serial>
-        </monitorspec>
-        <mode>
-          <width>1920</width>
-          <height>1200</height>
-          <rate>59.950172424316406</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-    <logicalmonitor>
-      <x>0</x>
-      <y>0</y>
-      <scale>1</scale>
-      <primary>yes</primary>
-      <monitor>
-        <monitorspec>
-          <connector>DP-3-1</connector>
-          <vendor>SAM</vendor>
-          <product>S24F350</product>
-          <serial>H4ZJ502091</serial>
-        </monitorspec>
-        <mode>
-          <width>1920</width>
-          <height>1080</height>
-          <rate>60</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-  </configuration>
-  <configuration>
-    <logicalmonitor>
-      <x>2560</x>
-      <y>427</y>
-      <scale>1</scale>
-      <monitor>
-        <monitorspec>
-          <connector>eDP-1</connector>
-          <vendor>SHP</vendor>
-          <product>0x14cb</product>
-          <serial>0x00000000</serial>
-        </monitorspec>
-        <mode>
-          <width>1920</width>
-          <height>1200</height>
-          <rate>59.950172424316406</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-    <logicalmonitor>
-      <x>0</x>
-      <y>0</y>
-      <scale>1</scale>
-      <primary>yes</primary>
-      <monitor>
-        <monitorspec>
-          <connector>DP-2-2</connector>
-          <vendor>DEL</vendor>
-          <product>DELL U2719D</product>
-          <serial>FY52X13</serial>
-        </monitorspec>
-        <mode>
-          <width>2560</width>
-          <height>1440</height>
-          <rate>59.950550079345703</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-  </configuration>
-  <configuration>
-    <logicalmonitor>
-      <x>0</x>
-      <y>0</y>
-      <scale>1</scale>
-      <primary>yes</primary>
       <monitor>
         <monitorspec>
           <connector>DP-3-2</connector>
-          <vendor>DEL</vendor>
-          <product>DELL U2719D</product>
-          <serial>FY52X13</serial>
+          <vendor>SAM</vendor>
+          <product>S24F350</product>
+          <serial>H4ZJ502091</serial>
         </monitorspec>
         <mode>
-          <width>2560</width>
-          <height>1440</height>
-          <rate>59.950550079345703</rate>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
         </mode>
       </monitor>
     </logicalmonitor>
     <logicalmonitor>
-      <x>2560</x>
+      <x>5360</x>
       <y>240</y>
       <scale>1</scale>
       <monitor>
@@ -1188,6 +1230,86 @@
           <width>1920</width>
           <height>1200</height>
           <rate>59.950172424316406</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>1920</x>
+      <y>0</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>DP-4</connector>
+          <vendor>DEL</vendor>
+          <product>DELL U3419W</product>
+          <serial>GD116T2</serial>
+        </monitorspec>
+        <mode>
+          <width>3440</width>
+          <height>1440</height>
+          <rate>59.972618103027344</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+  </configuration>
+  <configuration>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <scale>1</scale>
+      <transform>
+        <rotation>right</rotation>
+        <flipped>no</flipped>
+      </transform>
+      <monitor>
+        <monitorspec>
+          <connector>DP1-2</connector>
+          <vendor>DEL</vendor>
+          <product>DELL U2719D</product>
+          <serial>FY52X13</serial>
+        </monitorspec>
+        <mode>
+          <width>2560</width>
+          <height>1440</height>
+          <rate>59.950550079345703</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>3360</x>
+      <y>558</y>
+      <scale>1</scale>
+      <monitor>
+        <monitorspec>
+          <connector>eDP1</connector>
+          <vendor>SHP</vendor>
+          <product>0x14cb</product>
+          <serial>0x00000000</serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1200</height>
+          <rate>59.950172424316406</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>1440</x>
+      <y>558</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>DP2-1</connector>
+          <vendor>SAM</vendor>
+          <product>S24F350</product>
+          <serial>H4ZJC05509</serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
         </mode>
       </monitor>
     </logicalmonitor>
@@ -1251,10 +1373,9 @@
   </configuration>
   <configuration>
     <logicalmonitor>
-      <x>0</x>
-      <y>0</y>
+      <x>2560</x>
+      <y>427</y>
       <scale>1</scale>
-      <primary>yes</primary>
       <monitor>
         <monitorspec>
           <connector>eDP-1</connector>
@@ -1269,23 +1390,43 @@
         </mode>
       </monitor>
     </logicalmonitor>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>DP-2-2</connector>
+          <vendor>DEL</vendor>
+          <product>DELL U2719D</product>
+          <serial>FY52X13</serial>
+        </monitorspec>
+        <mode>
+          <width>2560</width>
+          <height>1440</height>
+          <rate>59.950550079345703</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
   </configuration>
   <configuration>
     <logicalmonitor>
-      <x>3840</x>
-      <y>355</y>
+      <x>0</x>
+      <y>120</y>
       <scale>1</scale>
+      <primary>yes</primary>
       <monitor>
         <monitorspec>
-          <connector>eDP-1</connector>
-          <vendor>SHP</vendor>
-          <product>0x14cb</product>
+          <connector>DP-3</connector>
+          <vendor>VES</vendor>
+          <product>32FHD_LCD_TV</product>
           <serial>0x00000000</serial>
         </monitorspec>
         <mode>
           <width>1920</width>
-          <height>1200</height>
-          <rate>59.950172424316406</rate>
+          <height>1080</height>
+          <rate>60</rate>
         </mode>
       </monitor>
     </logicalmonitor>
@@ -1293,36 +1434,17 @@
       <x>1920</x>
       <y>0</y>
       <scale>1</scale>
-      <primary>yes</primary>
       <monitor>
         <monitorspec>
-          <connector>DP-1-1</connector>
-          <vendor>SAM</vendor>
-          <product>S24F350</product>
-          <serial>H4ZJC05509</serial>
+          <connector>eDP-1</connector>
+          <vendor>SHP</vendor>
+          <product>0x14cb</product>
+          <serial>0x00000000</serial>
         </monitorspec>
         <mode>
           <width>1920</width>
-          <height>1080</height>
-          <rate>60</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-    <logicalmonitor>
-      <x>0</x>
-      <y>375</y>
-      <scale>1</scale>
-      <monitor>
-        <monitorspec>
-          <connector>DP-1-2</connector>
-          <vendor>SAM</vendor>
-          <product>S24F350</product>
-          <serial>H4ZJ502091</serial>
-        </monitorspec>
-        <mode>
-          <width>1920</width>
-          <height>1080</height>
-          <rate>60</rate>
+          <height>1200</height>
+          <rate>59.950172424316406</rate>
         </mode>
       </monitor>
     </logicalmonitor>
