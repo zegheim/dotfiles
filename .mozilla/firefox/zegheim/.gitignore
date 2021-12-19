@@ -1,0 +1,12 @@
+# Ignore everything, except...
+*
+
+# ...these directories, and...
+!*/
+!/user.js-scripts/**
+
+# ...these files
+!.gitignore
+!prefs.js
+!user.js
+!user-overrides.js
