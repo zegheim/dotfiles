@@ -4,16 +4,6 @@
  * [SETTING] General>Startup>Restore previous session ***/
 user_pref("browser.startup.page", 3);
 
-/* 0210: set preferred language for displaying pages
- * [SETTING] General>Language and Appearance>Language>Choose your preferred language...
- * [TEST] https://addons.mozilla.org/about ***/
-user_pref("intl.accept_languages", "en-GB", "en");
-
-/* 0211: use system locale
- * [SETUP-WEB] May break some input methods e.g xim/ibus for CJK languages [1]
- * [1] https://bugzilla.mozilla.org/buglist.cgi?bug_id=867501,1629630 ***/
-user_pref("javascript.use_us_english_locale", false); // [HIDDEN PREF]
-
 /* 0301: enable auto-INSTALLING Firefox updates [NON-WINDOWS]
  * [NOTE] You will still get prompts to update, and should do so in a timely manner
  * [SETTING] General>Firefox Updates>Check for updates but let you choose to install them ***/
@@ -24,15 +14,6 @@ user_pref("app.update.auto", true);
  * [1] https://support.mozilla.org/kb/enable-background-updates-firefox-windows ***/
 user_pref("app.update.background.scheduling.enabled", true);
 
-/* 0360: enable Captive Portal detection
- * [1] https://www.eff.org/deeplinks/2017/08/how-captive-portals-interfere-wireless-security-and-privacy ***/
-user_pref("captivedetect.canonicalURL", "detectportal.firefox.com");
-user_pref("network.captive-portal-service.enabled", true); // [FF52+]
-
-/* 0605: enforce no "Hyperlink Auditing" (click tracking)
- * [1] https://www.bleepingcomputer.com/news/software/major-browsers-to-prevent-disabling-of-click-tracking-privacy-risk/ ***/
-user_pref("browser.send_pings", false); // [DEFAULT: false]
-
 /* 0710: disable DNS-over-HTTPS (DoH) rollout [FF60+]
  * 0=off by default, 2=TRR (Trusted Recursive Resolver) first, 3=TRR only, 5=explicitly off
  * see "doh-rollout.home-region": USA Feb 2020, Canada July 2021 [3]
@@ -40,7 +21,7 @@ user_pref("browser.send_pings", false); // [DEFAULT: false]
  * [2] https://wiki.mozilla.org/Security/DOH-resolver-policy
  * [3] https://blog.mozilla.org/mozilla/news/firefox-by-default-dns-over-https-rollout-in-canada/
  * [4] https://www.eff.org/deeplinks/2020/12/dns-doh-and-odoh-oh-my-year-review-2020 ***/
-user_pref("network.trr.mode", 2);
+user_pref("network.trr.mode", 5);
 
 /* 0801: disable location bar using search
  * Don't leak URL typos to a search engine, give an error message instead
