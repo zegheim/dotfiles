@@ -110,17 +110,6 @@ alias l='ls -CF'
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
-# Alias definitions.
-if [ -f ~/.aliases ]; then
-    . ~/.aliases
-fi
-
-# Bookmarks. See https://threkk.medium.com/how-to-use-bookmarks-in-bash-zsh-6b8074e40774
-if [ -d "$HOME/.bookmarks" ]; then
-    export CDPATH=".:$HOME/.bookmarks:/"
-    alias goto="cd -P"
-fi
-
 # See https://github.com/deviantfero/wpgtk/wiki/Colorschemes#restore-on-terminals for more details.
 (cat $HOME/.config/wpg/sequences &)
 
@@ -130,5 +119,3 @@ function set_window_title(){
 precmd_functions+=(set_window_title)
 
 eval "$(starship init zsh)"
-
-export PATH="$HOME/.poetry/bin:$PATH"
