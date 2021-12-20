@@ -24,7 +24,10 @@ toolbarbutton.titlebar-button.titlebar-close {
     min-width: 0px !important;
 }
 
-
+/* Hide splitter */
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] + #sidebar-splitter {
+  display: none !important;
+}
 
 /* Hide sidebar header */
 #sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar-header {
