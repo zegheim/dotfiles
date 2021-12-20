@@ -122,6 +122,7 @@ user_pref("ui.prefersReducedMotion", 1); // disable chrome animations [FF77+] [R
 
 /* UX BEHAVIOR ***/
 user_pref("browser.ctrlTab.sortByRecentlyUsed", true);
+user_pref("browser.compactmode.show", true);
 user_pref("browser.tabs.closeWindowWithLastTab", false);
 user_pref("browser.tabs.loadBookmarksInTabs", true); // open bookmarks in a new tab [FF57+]
 
