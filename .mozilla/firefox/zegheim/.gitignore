@@ -4,6 +4,7 @@
 # ...these directories, and...
 !*/
 !/user.js-scripts/**
+!/chrome/**
 
 # ...these files
 !.gitignore
