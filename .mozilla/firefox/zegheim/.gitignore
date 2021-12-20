@@ -7,6 +7,5 @@
 
 # ...these files
 !.gitignore
-!prefs.js
 !user.js
 !user-overrides.js

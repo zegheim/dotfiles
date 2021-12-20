@@ -84,6 +84,17 @@ user_pref("privacy.clearOnShutdown.downloads", false); // [DEFAULT: true]
 user_pref("privacy.clearOnShutdown.history", false); // [DEFAULT: true]
 user_pref("privacy.clearOnShutdown.sessions", false); // [DEFAULT: true]
 
+/* 4504: disable RFP letterboxing [FF67+]
+ * Dynamically resizes the inner window by applying margins in stepped ranges [2]
+ * If you use the dimension pref, then it will only apply those resolutions.
+ * The format is "width1xheight1, width2xheight2, ..." (e.g. "800x600, 1000x1000")
+ * [SETUP-WEB] This is independent of RFP (4501). If you're not using RFP, or you are but
+ * dislike the margins, then flip this pref, keeping in mind that it is effectively fingerprintable
+ * [WARNING] DO NOT USE: the dimension pref is only meant for testing
+ * [1] https://bugzilla.mozilla.org/1407366
+ * [2] https://hg.mozilla.org/mozilla-central/rev/6d2d7856e468#l2.32 ***/
+user_pref("privacy.resistFingerprinting.letterboxing", false); // [HIDDEN PREF]
+
 /* 4510: enable using system colors
  * [SETTING] General>Language and Appearance>Fonts and Colors>Colors>Use system colors ***/
 user_pref("browser.display.use_system_colors", true); // [DEFAULT false NON-WINDOWS]
@@ -110,6 +121,7 @@ user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true); // [FF68
 user_pref("ui.prefersReducedMotion", 1); // disable chrome animations [FF77+] [RESTART] [HIDDEN PREF]
 
 /* UX BEHAVIOR ***/
+user_pref("browser.ctrlTab.sortByRecentlyUsed", true);
 user_pref("browser.tabs.closeWindowWithLastTab", false);
 user_pref("browser.tabs.loadBookmarksInTabs", true); // open bookmarks in a new tab [FF57+]
 
