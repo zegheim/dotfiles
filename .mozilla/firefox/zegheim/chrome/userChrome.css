@@ -76,3 +76,8 @@ toolbarbutton.titlebar-button.titlebar-close {
     /* Remove the empty space */
     margin-block-start: 0 !important;
 }
+
+/* Hide microphone / video indicator */
+#webrtcIndicator {
+    display: none;
+}
