@@ -57,3 +57,15 @@ toolbarbutton.titlebar-button.titlebar-close {
     margin-block-start: 0 !important;
 }
 
+
+/* remove items from context menu */
+#context-sendimage, 
+#context-sep-setbackground, 
+#context-setDesktopBackground,
+#context-inspect-a11y,
+#context-inspect,
+#context-media-eme-separator,
+#context-video-pictureinpicture,
+#context-sendvideo {
+    display: none !important;
+}
