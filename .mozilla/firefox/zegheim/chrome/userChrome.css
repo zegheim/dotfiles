@@ -21,7 +21,24 @@ toolbarbutton.titlebar-button.titlebar-close {
 /* adjust sidebar min and max width */
 #sidebar {
     max-width: none !important;
-    min-width: 30px !important;
+    min-width: 10em !important;
+}
+
+/* match with .sidebar-splitter having a width of 0.25em */
+:root {
+    --tree-style-tab-padding: 0.25em;
+}
+
+#sidebar-box {
+    padding-left: var(--tree-style-tab-padding);
+    background-color: var(--lwt-accent-color) !important;
+}
+
+/* remove sidebar border */
+.sidebar-splitter {
+    width: var(--tree-style-tab-padding) !important;
+    border-style: none !important;
+    background-color: var(--lwt-accent-color) !important;
 }
 
 /* remove sidebar header */
