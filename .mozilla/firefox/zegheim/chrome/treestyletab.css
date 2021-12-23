@@ -46,8 +46,3 @@
 .newtab-button {
     display: none;
 }
-
-/* active tab */
-.tab.active .label {
-    font-weight: bold;
-}
