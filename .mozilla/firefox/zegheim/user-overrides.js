@@ -119,6 +119,7 @@ user_pref("browser.urlbar.suggest.topsites", false); // [FF78+]
 ***/
 
 /* SOCKS5 PROXY ***/
+user_pref("network.proxy.type", 1);
 user_pref("network.proxy.socks", "10.64.0.1");
 user_pref("network.proxy.socks_port", 1080);
 user_pref("network.proxy.socks_remote_dns", true);
