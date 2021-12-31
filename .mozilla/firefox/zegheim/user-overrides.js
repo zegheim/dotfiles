@@ -118,6 +118,11 @@ user_pref("browser.urlbar.suggest.topsites", false); // [FF78+]
    Non-project related but useful. If any interest you, add them to your overrides
 ***/
 
+/* SOCKS5 PROXY ***/
+user_pref("network.proxy.socks", "10.64.0.1");
+user_pref("network.proxy.socks_port", 1080);
+user_pref("network.proxy.socks_remote_dns", true);
+
 /* APPEARANCE ***/
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true); // [FF68+] allow userChrome/userContent
 user_pref("ui.prefersReducedMotion", 1); // disable chrome animations [FF77+] [RESTART] [HIDDEN PREF]
