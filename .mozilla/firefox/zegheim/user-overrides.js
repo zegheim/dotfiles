@@ -14,14 +14,16 @@ user_pref("app.update.auto", true);
  * [1] https://support.mozilla.org/kb/enable-background-updates-firefox-windows ***/
 user_pref("app.update.background.scheduling.enabled", true);
 
-/* 0710: disable DNS-over-HTTPS (DoH) rollout [FF60+]
+/* 0710: enable custom DNS-over-HTTPS (DoH) rollout [FF60+]
  * 0=off by default, 2=TRR (Trusted Recursive Resolver) first, 3=TRR only, 5=explicitly off
  * see "doh-rollout.home-region": USA Feb 2020, Canada July 2021 [3]
  * [1] https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/
  * [2] https://wiki.mozilla.org/Security/DOH-resolver-policy
  * [3] https://blog.mozilla.org/mozilla/news/firefox-by-default-dns-over-https-rollout-in-canada/
  * [4] https://www.eff.org/deeplinks/2020/12/dns-doh-and-odoh-oh-my-year-review-2020 ***/
-user_pref("network.trr.mode", 5);
+user_pref("network.trr.mode", 3);
+user_pref("network.trr.uri","https://adblock.doh.mullvad.net/dns-query");
+user_pref("network.trr.custom_uri", "https://adblock.doh.mullvad.net/dns-query");
 
 /* 0801: disable location bar using search
  * Don't leak URL typos to a search engine, give an error message instead
