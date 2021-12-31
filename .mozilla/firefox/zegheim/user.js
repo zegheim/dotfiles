@@ -1465,6 +1465,9 @@ user_pref("browser.urlbar.suggest.topsites", false); // [FF78+]
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true); // [FF68+] allow userChrome/userContent
 user_pref("ui.prefersReducedMotion", 1); // disable chrome animations [FF77+] [RESTART] [HIDDEN PREF]
 
+/* SYNC ***/
+user_pref("services.sync.addons.ignoreUserEnabledChanges", true); // see https://wiki.mozilla.org/Services/Sync/Addon_Sync#Can_I_have_different_enabled_states_on_different_machines.3F
+
 /* UX BEHAVIOR ***/
 user_pref("browser.ctrlTab.sortByRecentlyUsed", true);
 user_pref("browser.compactmode.show", true);
