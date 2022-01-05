@@ -6,7 +6,7 @@
 --audio-quality 0
 
 # Specify audio format: "best", "aac", "flac", "mp3", "m4a", "opus", "vorbis", or "wav"
---audio-format "mp3"
+--audio-format "m4a"
 
 # Download the playlist, if the URL refers to a video and a playlist.
 --yes-playlist
@@ -24,7 +24,7 @@
 # --format "bestaudio"
 
 # Save downloaded audio to Google Drive
---output "$GOOGLEDRIVE/Music/%(playlist_title)s/[%(id)s] %(title)s.%(ext)s"
+--output "/home/zegheim/Music/%(playlist_title)s/[%(id)s] %(title)s.%(ext)s"
 
 # Continue on download errors, for example to skip unavailable videos in a playlist
 --ignore-errors
