@@ -24,7 +24,7 @@
 # --format "bestaudio"
 
 # Save downloaded audio to Google Drive
---output "/home/zegheim/Music/%(playlist_title)s/[%(id)s] %(title)s.%(ext)s"
+--output "/home/zegheim/Music/youtube-dl/%(playlist_title)s/[%(id)s] %(title)s.%(ext)s"
 
 # Continue on download errors, for example to skip unavailable videos in a playlist
 --ignore-errors
