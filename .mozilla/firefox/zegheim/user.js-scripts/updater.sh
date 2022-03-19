@@ -2,7 +2,7 @@
 
 ## arkenfox user.js updater for macOS and Linux
 
-## version: 3.2
+## version: 3.4
 ## Author: Pat Johnson (@overdodactyl)
 ## Additional contributors: @earthlng, @ema-pe, @claustromaniac
 
@@ -62,7 +62,7 @@ show_banner() {
                 ####                                                                    ####
                 ############################################################################"
   echo -e "${NC}\n"
-  echo -e "Documentation for this script is available here: ${CYAN}https://github.com/arkenfox/user.js/wiki/3.3-Updater-Scripts${NC}\n"
+  echo -e "Documentation for this script is available here: ${CYAN}https://github.com/arkenfox/user.js/wiki/5.1-Updater-[Options]#-maclinux${NC}\n"
 }
 
 #########################
@@ -106,7 +106,7 @@ Optional Arguments:
 download_file() { # expects URL as argument ($1)
   declare -r tf=$(mktemp)
 
-  $DOWNLOAD_METHOD "${tf}" "$1" && echo "$tf" || echo '' # return the temp-filename or empty string on error
+  $DOWNLOAD_METHOD "${tf}" "$1" &>/dev/null && echo "$tf" || echo '' # return the temp-filename or empty string on error
 }
 
 open_file() { # expects one argument: file_path
