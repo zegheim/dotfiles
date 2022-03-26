@@ -1382,8 +1382,11 @@ user_pref("app.update.background.scheduling.enabled", true);
  * [3] https://blog.mozilla.org/mozilla/news/firefox-by-default-dns-over-https-rollout-in-canada/
  * [4] https://www.eff.org/deeplinks/2020/12/dns-doh-and-odoh-oh-my-year-review-2020 ***/
 user_pref("network.trr.mode", 3);
-user_pref("network.trr.uri","https://adblock.doh.mullvad.net/dns-query");
-user_pref("network.trr.custom_uri", "https://adblock.doh.mullvad.net/dns-query");
+user_pref("network.trr.uri", "https://adblock.doh.mullvad.net/dns-query");
+user_pref(
+  "network.trr.custom_uri",
+  "https://adblock.doh.mullvad.net/dns-query"
+);
 
 /* 0801: disable location bar using search
  * Don't leak URL typos to a search engine, give an error message instead
@@ -1445,6 +1448,12 @@ user_pref("network.cookie.lifetimePolicy", 0);
 user_pref("privacy.clearOnShutdown.downloads", false); // [DEFAULT: true]
 user_pref("privacy.clearOnShutdown.history", false); // [DEFAULT: true]
 user_pref("privacy.clearOnShutdown.sessions", false); // [DEFAULT: true]
+
+/* 4501: disable privacy.resistFingerprinting [FF41+]
+ * [SETUP-WEB] RFP can cause some website breakage: mainly canvas, use a site exception via the urlbar
+ * RFP also has a few side effects: mainly timezone is UTC0, and websites will prefer light theme
+ * [1] https://bugzilla.mozilla.org/418986 ***/
+user_pref("privacy.resistFingerprinting", false);
 
 /* 4504: disable RFP letterboxing [FF67+]
  * Dynamically resizes the inner window by applying margins in stepped ranges [2]

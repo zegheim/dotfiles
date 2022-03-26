@@ -27,6 +27,5 @@ fi
 
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$(yarn global bin):$PATH"
-export PATH="$HOME/.poetry/bin:$PATH"
 
 source "$HOME/.cargo/env"

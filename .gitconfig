@@ -1,6 +1,7 @@
 [user]
 	email = 30282499+zegheim@users.noreply.github.com
 	name = Justin Arista Kasin
+	signingkey = C51493C132B55BC9
 [core]
 	pager = diff-so-fancy | less --tabs=4 -RFX
 [color]
@@ -19,3 +20,5 @@
 	whitespace = red reverse
 [pull]
 	rebase = false
+[commit]
+	gpgsign = true

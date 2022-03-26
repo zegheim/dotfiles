@@ -119,3 +119,6 @@ function set_window_title(){
 precmd_functions+=(set_window_title)
 
 eval "$(starship init zsh)"
+
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/bin/terraform terraform
