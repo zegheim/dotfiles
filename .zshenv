@@ -26,6 +26,5 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 export PATH="$HOME/.cargo/bin:$PATH"
-export PATH="$(yarn global bin):$PATH"
 
 source "$HOME/.cargo/env"
